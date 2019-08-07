@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #95afc0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    display: flex;
+    /* max-width: 500px; */
+
+}
+
+.textExpand {
+    color: #130f40;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    /* height: 50px; */
+}
+
+.in{
+    max-width: 0;
+    opacity: 0;
+    transition: 0.5s ease-in;
+
+}
+
+.textExpand:hover .in {
+    opacity: 1;
+    max-width: 1em;
+}
+
